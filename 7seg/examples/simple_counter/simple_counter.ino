@@ -1,6 +1,6 @@
 //simple counter example
 #include "7seg.h"
-//Seven_segment display(datapin, latchpin, clockpin, common pin (cathode by default, anode:'a'));
+//Seven_segment display(datapin, latchpin, clockpin, common pin (cathode by default, anode:'c'));
 Seven_segment disp(PB2,PB1,PB0);
 void setup() {
 }
